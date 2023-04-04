@@ -68,12 +68,12 @@ alert("Hello there!");
 
   return (
     //take out main container?
-    <div className="main-container">
+    <div className="App-header">
      
       <div>
-        <h1>Welcome Guest!</h1>   
-        <h2> This is the comment section. Please make a comment.</h2>
-        <h2> After making your first comment you can either reply, edit, or 
+        <h1 className='App'>Welcome Guest!</h1>   
+        <h2 className='App'> This is the comment section. Be our guest and make a comment!</h2>
+        <h2 className='App'> After making your first comment you can either reply, edit, or 
             delete your comment.
         </h2>
       
